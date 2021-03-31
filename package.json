@@ -1,0 +1,52 @@
+{
+  "name": "@open-tech-world/generate-password",
+  "version": "0.0.0",
+  "description": "Generates cryptographically secured passwords in browsers.",
+  "main": "dist/generate-password.cjs.js",
+  "module": "dist/generate-password.esm.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "sh -c 'if [ -d ./dist ]; then rm -r ./dist; fi'",
+    "build": "yarn clean && rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-tech-world/generate-password.git"
+  },
+  "keywords": [
+    "generate",
+    "crypto",
+    "cryptographically",
+    "secure",
+    "password",
+    "browser"
+  ],
+  "author": {
+    "name": "Thanga Ganapathy",
+    "email": "ganapathy888@gmail.com",
+    "url": "https://ganapathy888.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-tech-world/generate-password/issues"
+  },
+  "homepage": "https://github.com/open-tech-world/generate-password#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "rollup": "^2.44.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-filesize": "^9.1.1"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ]
+}
