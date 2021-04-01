@@ -5,19 +5,19 @@
 ## Install
 
 ```bash
-$ npm install @open-tech-word/generate-password
+$ npm install @open-tech-world/generate-password
 -OR-
-$ yarn add @open-tech-word/generate-password
+$ yarn add @open-tech-world/generate-password
 ```
 
 ## Usage
 
 ```js
-const generatePassword = require('@open-tech-word/generate-password');
+const generatePassword = require('@open-tech-world/generate-password');
 
 // or
 
-import generatePassword from '@open-tech-word/generate-password';
+import generatePassword from '@open-tech-world/generate-password';
 
 console.log(generatePassword());
 // c1pXV$3Q
