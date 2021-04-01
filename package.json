@@ -1,6 +1,6 @@
 {
   "name": "@open-tech-world/generate-password",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generates cryptographically secured passwords in browsers.",
   "main": "dist/generate-password.cjs.js",
   "module": "dist/generate-password.esm.mjs",
